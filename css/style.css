@@ -1,0 +1,36 @@
+button {outline: none;}
+
+body {height: 100%; width: 100%; margin: 0;}
+
+/* Game */
+#container{ position: relative; height: 480px; width: 350px;
+            border: 1px solid #cccccc;
+            background: url('/image/bg.png');
+            overflow: hidden;
+            margin: 80px auto; 
+}
+
+/* Bird */
+#bird{
+    position: absolute;
+    background: url('/image/bird.png');
+    height: 42px;
+    width: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top:20%;
+    left: 15%;
+}
+
+/*pole*/
+/*generality */
+.pole{
+    position: absolute;
+    height: 170px;
+    width: 60px;
+    background-color: #33cc33;
+    right: -64px;
+    border: 2px solid #000000;
+}
+
+
